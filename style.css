@@ -1,0 +1,268 @@
+/* Your custom styles */
+
+html {
+    font-size: 16px;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* style for nav section */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: "Cairo", sans-serif;
+    color: #770042;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2e2e2e;
+    background: #ff0e9f0e;
+}
+
+.navbar-nav {
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    height: 60px;
+}
+
+.qrc-logo {
+    width: 90px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle {
+    border-color: #eee;
+    background: #cb0071;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: rgba(203, 0, 115, 0.8);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.btn-default {
+    background: none;
+    border-radius: 0;
+    border: 1px solid #212121;
+    font-size: 22px;
+    font-family: "Cairo", sans-serif;
+    text-transform: capitalize;
+    padding: 4px 24px;
+    color: #770042;
+    -webkit-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.btn-default:hover,
+.btn-default.focus,
+.btn-default:focus,
+.btn-default:active:visited,
+.btn-default:hover:focus,
+.btn-default:active:focus {
+    color: white;
+    background: #00ccc6;
+    outline: 0;
+    border: 1px solid #212121;
+}
+.qrc-header {
+    position: relative;
+    display: block;
+}
+.qrc-header img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+}
+.qrc-header .brif {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: -20%;
+    top: 33%;
+    z-index: 10;
+    text-align: center;
+    color: white;
+}
+.qrc-header .brif h1 {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+    font-family: "Cairo", sans-serif;
+}
+.qrc-header .brif p {
+    font-size: 1.2vw;
+    color: #fff5c2;
+}
+
+/* style for about section*/
+.qrc-about {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 8%;
+    border-bottom: 1px solid #f1f1f1;
+}
+.title {
+    position: relative;
+    font-family: "Cairo", sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #770042;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.title::after {
+    content: "";
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #00ccff;
+}
+.qrc-about .title {
+    margin-bottom: 20px;
+}
+.qrc-about p {
+    color: #212121;
+}
+
+/* style for services section*/
+.qrc-services {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 20px;
+}
+.qrc-services img {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.qrc-services img:hover {}
+.qrc-services .container {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.qrc-services h2 {
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+    color: #631434;
+}
+.qrc-services a {
+    margin-bottom: 10px;
+}
+
+/* style for news section*/
+.qrc-news {
+    margin-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+.thumbnail {
+    position: relative;
+    -webkit-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.thumbnail:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 25px 30px rgba(0, 0, 0, 0.20);
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.20);
+}
+.qrc-news img {
+    border-bottom: 1px solid #eee;
+}
+
+.panel{
+    margin: 0;
+    border-radius: 0;
+    
+}
+.panel-default {
+    background-color: #200b2d;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    padding: 0;
+    border-top: 3px solid #843eaf;
+}
+
+.panel ul {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.panel a {
+    color: #fff;
+}
+.panel a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.panel li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.panel p{
+    margin: 0;
+    color: #ccc;
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 540px) {
+    .qrc-header .brif {
+        left: -100px;
+        top: 30%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint  */
+@media (max-width: 540px) {  
+    .qrc-footer p , .qrc-footer a {font-size:12px;} 
+}
