@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 710 493">
+  <defs>
+    <style>.cls-1{isolation:isolate;}.cls-14,.cls-2{fill:none;stroke-miterlimit:10;stroke-width:4px;}.cls-2{stroke:#fff;}.cls-3{opacity:0.62;}.cls-4{fill:#afbfc2;}.cls-5{fill:#28555c;}.cls-10,.cls-13,.cls-6{fill:#fff;}.cls-6{opacity:0.4;}.cls-12,.cls-15,.cls-7{fill:#13444c;}.cls-11,.cls-7{opacity:0.5;}.cls-19,.cls-8{fill:#f9cdc3;}.cls-9{fill:#c0dbe5;}.cls-12,.cls-16,.cls-9{mix-blend-mode:multiply;}.cls-11{fill:#325c63;}.cls-12{opacity:0.51;}.cls-13{opacity:0.8;}.cls-14{stroke:#b1c1c4;}.cls-16{fill:#f9cec5;}.cls-17{fill:#577a80;}.cls-18{fill:#acbec0;}.cls-19{opacity:0.6;}</style>
+  </defs>
+  <title>methodology-hero</title>
+  <g class="cls-1">
+    <g id="Art">
+      <circle class="cls-2" cx="27" cy="419.55" r="6"></circle>
+      <g class="cls-3">
+        <rect class="cls-4" x="293.24" y="66.55" width="150" height="138"></rect>
+        <rect class="cls-5" x="329.24" y="105.55" width="76" height="18"></rect>
+        <rect class="cls-5" x="329.24" y="141.55" width="76" height="18"></rect>
+      </g>
+      <path class="cls-6" d="M415.24,159.05v16.5h-23.5a17.5,17.5,0,0,0-17.5,17.5v71.5h119.5a17.5,17.5,0,0,0,17.5-17.5v-10.5h15.5a17.5,17.5,0,0,0,17.5-17.5v-77.5H432.74A17.5,17.5,0,0,0,415.24,159.05Z"></path>
+      <path class="cls-6" d="M290.24,358.05v16.5h-23.5a17.5,17.5,0,0,0-17.5,17.5v15.5h-18.5a17.5,17.5,0,0,0-17.5,17.5v1a17.5,17.5,0,0,0,17.5,17.5h19.5v13.5a17.5,17.5,0,0,0,17.5,17.5h121a17.5,17.5,0,0,0,17.5-17.5v-21.5h15.5a17.5,17.5,0,0,0,17.5-17.5v-77.5H307.74A17.5,17.5,0,0,0,290.24,358.05Z"></path>
+      <rect class="cls-7" x="374.24" y="264.55" width="170" height="112"></rect>
+      <rect class="cls-6" x="611.24" y="322.55" width="27" height="27" rx="13.5" ry="13.5"></rect>
+      <path class="cls-8" d="M653,400.22,621.9,431.33A22,22,0,0,0,653,400.22Z"></path>
+      <polygon class="cls-9" points="538.24 451.55 552.24 475.55 566.24 451.55 538.24 451.55"></polygon>
+      <rect class="cls-10" x="493.24" y="213.55" width="18" height="120" transform="translate(228.69 775.79) rotate(-90)"></rect>
+      <path class="cls-11" d="M544.24,376.55h-188v8a10,10,0,0,0,10,10h186a10,10,0,0,0,10-10v-8Z"></path>
+      <rect class="cls-12" x="374.24" y="371.55" width="170" height="5"></rect>
+      <path class="cls-10" d="M559.78,129.55a15.55,15.55,0,0,0-15.55,15.55V282.55h18v-135h84v-18Z"></path>
+      <polygon class="cls-10" points="692.24 138.98 646.24 106.55 646.24 171.4 692.24 138.98"></polygon>
+      <polygon class="cls-13" points="562.24 147.55 562.24 282.55 474.24 282.55 474.24 300.55 562.24 300.55 577.24 300.55 580.24 300.55 580.24 147.55 562.24 147.55"></polygon>
+      <polygon class="cls-13" points="604.24 75.55 571.81 29.55 539.38 75.55 562.24 75.55 562.24 129.55 580.24 129.55 580.24 75.55 604.24 75.55"></polygon>
+      <polygon class="cls-9" points="567.24 147.55 562.24 147.55 562.24 282.55 463.24 282.55 463.24 287.55 567.24 287.55 567.24 282.55 567.24 152.55 580.24 152.55 580.24 147.55 567.24 147.55"></polygon>
+      <line class="cls-14" x1="333.24" y1="266.55" x2="417.24" y2="266.55"></line>
+      <circle class="cls-14" cx="375.24" cy="266.55" r="43"></circle>
+      <path class="cls-14" d="M375.24,224.55s-39,39,0,86"></path>
+      <path class="cls-14" d="M373.24,224.55s45,39,0,86"></path>
+      <rect class="cls-10" x="302.24" y="417.55" width="5" height="15"></rect>
+      <rect class="cls-10" x="322.24" y="417.55" width="5" height="15"></rect>
+      <rect class="cls-10" x="342.24" y="417.55" width="5" height="15"></rect>
+      <rect class="cls-10" x="362.24" y="417.55" width="5" height="15"></rect>
+      <path class="cls-2" d="M330.24,266.55H304.62a13,13,0,0,1-11.17-6.34l-37.12-62.14a17.49,17.49,0,0,0-15-8.52H174.24"></path>
+      <circle class="cls-2" cx="169.24" cy="189.55" r="6"></circle>
+      <line class="cls-2" x1="236.24" y1="221.55" x2="270.24" y2="221.55"></line>
+      <circle class="cls-2" cx="230.24" cy="221.55" r="6"></circle>
+      <path class="cls-2" d="M208.24,188.55,194.8,166.07a17.49,17.49,0,0,0-15-8.52H139"></path>
+      <circle class="cls-2" cx="134.24" cy="157.55" r="6"></circle>
+      <path class="cls-15" d="M375.24,221.55l-1,0v7.17l.18-.22c5,5.25,15.67,18.53,16.73,36h4c-1.07-19.24-12.63-33.4-18-39a41.05,41.05,0,0,1,39,39h4A45.05,45.05,0,0,0,375.24,221.55Z"></path>
+      <rect class="cls-10" x="424.24" y="195.55" width="5" height="15"></rect>
+      <rect class="cls-10" x="444.24" y="195.55" width="5" height="15"></rect>
+      <rect class="cls-10" x="464.24" y="195.55" width="5" height="15"></rect>
+      <rect class="cls-10" x="484.24" y="195.55" width="5" height="15"></rect>
+      <rect class="cls-6" x="410.66" y="9" width="21" height="21"></rect>
+      <circle class="cls-10" cx="293.24" cy="66.55" r="40"></circle>
+      <polygon class="cls-16" points="490.24 53.55 504.24 77.55 518.24 53.55 490.24 53.55"></polygon>
+      <path class="cls-2" d="M328.24,266.55H302.62a13,13,0,0,0-11.17,6.34L254.33,335a17.49,17.49,0,0,1-15,8.52H172.24"></path>
+      <circle class="cls-2" cx="167.24" cy="343.55" r="6"></circle>
+      <path class="cls-2" d="M206.24,344.55,192.8,367a17.49,17.49,0,0,1-15,8.52H137"></path>
+      <circle class="cls-2" cx="132.24" cy="375.55" r="6"></circle>
+      <path class="cls-17" d="M330.29,264.55h4a41.06,41.06,0,0,1,37.23-38.82,70.83,70.83,0,0,0-12.82,23.6A60.52,60.52,0,0,0,356,264.55H360a57.47,57.47,0,0,1,2.52-13.88,67.49,67.49,0,0,1,11.76-21.93v-7.17A45,45,0,0,0,330.29,264.55Z"></path>
+      <path class="cls-18" d="M265,94.83a40,40,0,0,0,56.57,0L265,38.27A40,40,0,0,0,265,94.83Z"></path>
+      <path class="cls-15" d="M293.24,106.55a40,40,0,0,0,40-40h-40Z"></path>
+      <rect class="cls-6" x="205.65" y="103.37" width="27" height="27" rx="13.5" ry="13.5"></rect>
+      <rect class="cls-19" x="130.66" y="446" width="21" height="21"></rect>
+      <path class="cls-2" d="M171.24,376.55,157.8,399a17.49,17.49,0,0,1-15,8.52H12"></path>
+      <polygon class="cls-16" points="140.24 79 154.24 103 168.24 79 140.24 79"></polygon>
+    </g>
+  </g>
+</svg>
