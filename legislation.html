@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <title>QRC</title>
+    <link href="https://fonts.googleapis.com/css?family=Cairo:600|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            background: -webkit-linear-gradient(315deg, #832e8c 0%, #6d4694 100%);
+            background: -o-linear-gradient(315deg, #832e8c 0%, #6d4694 100%);
+            background: linear-gradient(135deg, #832e8c 0%, #6d4694 100%);
+        }
+        
+        .legislation-page {
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            padding: 50px;
+            margin-bottom: 100px;
+            color: white;
+        }
+        
+        .legislation-page .container{
+            margin-top: 40px;
+        }
+        
+        h1 {
+            font-family: "Cairo", sans-serif;
+        }
+        
+        .col-lg-4 {
+            border-right: 1px solid rgba(255, 255, 255, 0.4);
+            margin-bottom: 6px;
+            background: rebeccapurple;
+            padding: 0;
+            padding-top: 20px;
+            border-radius: 5px;
+            position: relative;
+        }
+        
+        .col-lg-4:last-child {
+            border: 0;
+        }
+        
+        .col-lg-4 img {
+            -webkit-box-shadow: 0px 2px 0px 2px rgba(255, 255, 255, 0.12);
+                    box-shadow: 0px 2px 0px 2px rgba(255, 255, 255, 0.12);
+        }
+        
+        .arrow {
+            height: 10px;
+            width: 10px;
+            border-radius: 0;
+            padding: 10px 20px;
+            border-radius: 50%;
+            padding: 14px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: -75px;
+            right: 0;
+            margin: auto;
+            cursor: pointer;
+            border: 1px solid #aaa;
+            -webkit-transition: all 200ms linear;
+            -o-transition: all 200ms linear;
+            transition: all 200ms linear;
+        }
+        
+        .arrow:hover {
+            -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                    transform: scale(1.2);
+        }
+        
+        .info {
+            border-top: 1px solid rgba(238, 238, 238, 0.1);
+            margin-top: 10px;
+            background: #633196;
+            padding: 10px;
+        }
+        
+        .info h4 {
+            font-family: "Cairo", sans-serif;
+        }
+        
+        mark {
+            background: rgba(255, 255, 255, 0.03);
+            color: #00c1f4;
+            padding: 5px 10px;
+        }
+        
+        .col-lg-4 .glyphicon {
+            color: #6a6371;
+            font-weight: bold;
+            font-size: 26px;
+            left: -13px;
+            top: -12px;
+        }
+        
+        .modal {
+            color: #303030;
+        }
+        
+        .modal h4 {
+            color: purple;
+            font-family: "Cairo", sans-serif;
+            text-transform: capitalize;
+        }
+        
+        .modal-body {
+            padding: 20px 40px;
+            text-transform: capitalize;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/svg/logo.svg" alt="QRC Logo" id="home" class="qrc-logo">
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">
+                            <span class="qrc-line">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <span class="qrc-line">About Us</span>
+                        </a>
+                    </li>
+                      <li>
+                        <a href="products.html">
+                            <span class="qrc-line">Products</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="services.html">
+                            <span class="qrc-line">Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#legislation">
+                            <span class="qrc-line">Legislation</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="methodology.html">
+                            <span class="qrc-line">Methodology</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <span class="qrc-line">Contact Us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section class="legislation-page">
+        <h1>Legislation Association Members</h1>
+        <p>Certifies Islamic financial products as being Sharia-compliant(according to Shariah).</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <span class="arrow" data-toggle="modal" data-target="#dr-abdelaziz">
+                         <span class="glyphicon  glyphicon-info-sign" aria-hidden="true"></span></span>
+                    <img src="images/drabdelaziz.jpg" class="img-circle">
+                    <div class="info">
+                        <h4>Prof. Abdul Aziz Khalifa Al-Kassar</h4>
+                        <p>
+                            <mark>co-founder</mark>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <span class="arrow" data-toggle="modal" data-target="#dr-essam">
+                       <span class="glyphicon  glyphicon-info-sign" aria-hidden="true"></span></span>
+                    <img src="images/dressam.jpg" width="200px" height="200px" class="img-circle">
+                    <div class="info">
+                        <h4>Dr. Essam Khalaf Al Enzy</h4>
+                        <p>
+                            <mark>Member of The Shari'a Committee</mark>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <span class="arrow" data-toggle="modal" data-target="#dr-jarah">
+                       <span class="glyphicon  glyphicon-info-sign" aria-hidden="true"></span></span>
+                    <img src="images/drJarrah.jpg" class="img-circle">
+                    <div class="info">
+                        <h4>Prof. Jarah El-fadly</h4>
+                        <p>
+                            <mark>Member of The Shari'a Committee</mark>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--model -->
+        <div class="modal fade" id="dr-abdelaziz" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="gridSystemModalLabel">Prof. Abdul Aziz Khalifa Al-Kassar</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <p class="lead">Prof. Dr. Abdul Aziz Khalifa Al-Kassar Professor of Comparative Jurisprudence at the Faculty of Sharia and Islamic Studies at Kuwait University, received a Ph.D. in comparative jurisprudence from the Faculty of Sharia and Law - Al-Azhar University - Cairo - Arab Republic of Egypt. Member of the Faculty of Sharia and Islamic Studies at Kuwait University from 1997 to this time, he served as Associate Dean for Academic Affairs and Graduate Studies and Research, Faculty of Sharia and Islamic Studies at the University of Kuwait from the period 2001-2005, has many research and studies jurisprudence in Islamic financial transactions and contemporary.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+
+        <!--model -->
+        <div class="modal fade" id="dr-essam" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="gridSystemModalLabel">Dr. Essam Khalaf Al Enzy</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <p class="lead">Member of The Shari'a Committee and a member of The Shari'a Standards Committees in The Accounting and Auditing Organization for Islamic Financial Institutions in Kingdom of Bahrain Chairs Shari'a Committees for numerous Islamic banks and Islamic financial institutions in State of Kuwait and abroad Got a bachelor's and master's degrees from the Faculty of Islamic Shari'a at University of Kuwait, and a PhD in Islamic Shari'a from the University of the Hashemite Kingdom of Jordan Specialized trainer in contemporary transactions Fiqh and its applications in the Islamic Financial Institutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+
+        <!--model -->
+        <div class="modal fade" id="dr-jarah" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="gridSystemModalLabel">Prof. Jarah El-fadly</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    </section>
+
+    <section class="qrc-footer">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="legislation.html">Legislation</a>
+                    </li>
+                    <li>
+                        <a href="methodology.html">Methodology</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <p>Copyright © 2018 Maisr For Advanced Systems - Design: MAS</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+    </script>
+</body>
+
+</html>

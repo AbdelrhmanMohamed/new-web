@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <title>QRC</title>
+    <link href="https://fonts.googleapis.com/css?family=Cairo:600|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            background: #fff;
+        }
+        
+        .servecies-page {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .lead {
+            color: #fff;
+        }
+        
+        h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+            color: #00ffff;
+            text-align: left;
+            font-weight: bold;
+            font-family: "Cairo", sans-serif
+        }
+        
+        h2 {
+            color: #fff000;
+        }
+        
+        .page-hader {
+            width: 100%;
+            height: 90vh;
+            background-image: url(images/services-bg.png), -webkit-linear-gradient(315deg, #994be6 0%, #923479);
+            background-image: url(images/services-bg.png), -o-linear-gradient(315deg, #994be6 0%, #923479);
+            background-image: url(images/services-bg.png), linear-gradient(135deg, #994be6 0%, #923479);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: 0 bottom;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            padding: 30px 40px;
+        }
+        
+        .our-services {
+            float: right;
+        }
+        
+        .page-services {
+            margin-bottom: 10px;
+        }
+        
+        .container-flud {
+            padding: 0;
+            margin: 0 auto;
+        }
+        
+        .img-service {
+            height: 400px;
+            background: #f6f5ff;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .screening {
+            background-image: url(images/tree-growing.jpg)
+        }
+        
+        .purification {
+            background-image: url(images/watering-coin.jpg);
+        }
+        
+        .investment {
+            background-image: url(images/isalmic-decision.jpeg);
+        }
+        
+        .row {
+            margin-bottom: 10px;
+        }
+        
+        .info-service {
+            color: #fff;
+            padding: 20px;
+            height: 400px;
+        }
+        
+        .text {
+            margin-top: 20px;
+        }
+        
+        .bg-orange {
+            background: #72005a;
+        }
+        
+        .bg-blue {
+            background: #4d3868;
+        }
+        
+        .bg-green {
+            background: #00aa63;
+        }
+        
+        @media (max-width: 990px) {
+            .our-services img {
+                width: 250px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .our-services img {
+                width: 200px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/svg/logo.svg" alt="QRC Logo" id="home" class="qrc-logo">
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">
+                            <span class="qrc-line">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <span class="qrc-line">About Us</span>
+                        </a>
+                    </li>
+                      <li>
+                        <a href="products.html">
+                            <span class="qrc-line">Products</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="qrc-line">Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="legislation.html">
+                            <span class="qrc-line">Legislation</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="methodology.html">
+                            <span class="qrc-line">Methodology</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <span class="qrc-line">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section class="page-hader">
+        <div class="container">
+            <div class="text">
+                <h1>our services</h1>
+                <p class="lead">The major service is Sharia Compliance Data Feed.</p>
+            </div>
+        </div>
+        <div class="our-services">
+            <img src="images/svg/our-services.svg" alt="our services" width="350px" height="auto">
+        </div>
+    </section>
+
+    <section class="page-services">
+        <div class="container-flud">
+            <div class="row">
+                <div class="img-service screening col-lg-6 col-md-6 col-sm-6"></div>
+                <div class="info-service bg-blue col-lg-6 col-md-6  col-sm-6">
+                    <h2>Shariaa Screening - Sharia Compliance Data Feed</h2>
+                    <p>
+                        Sharia Compliance data feed provides asset managers with a solution to help them manage portfolios in accordance with the needs of Muslim clients. Updated monthly, the data covers companies on a global basis, including those in emerging markets. In addition, you can set your own revenue thresholds for screening criteria to align with your definition of industry involvement. Finally, we offer narrative profiles that explain how each company is involved in an issue of concern, so clients receive not only a list of restricted stocks, but also detailed explanations of the companies’ business operations that link them to the issue.We support most of the Islamic Indecis Standards jor Islamic Indices Dow Jones FTSE MSCI S&P Russell MANDAR and Our Standard QRC our any predefined standard by user.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="info-service bg-orange col-lg-6 col-md-6 col-sm-6">
+                    <h2>Purification</h2>
+                    <p>
+                        Income generated by a Shariah-compliant fund must also be ‘purified’ as it is often unavoidable that some of the income generated by the underlying companies in which a Shariah fund invests will include some form of non-halal income such as interest. The Shariah board’s input is again necessary in determining the types of income that need to be purified.
+                    </p>
+                </div>
+                <div class="img-service purification col-lg-6 col-md-6 col-sm-6"></div>
+            </div>
+            <div class="row">
+                <div class="img-service investment col-lg-6 col-md-6 col-sm-6"></div>
+                <div class="info-service bg-green col-lg-6 col-md-6 col-sm-6">
+                    <h2>Islamic investment decision support</h2>
+                    <p>
+                        Mobile application support the ivestor , tell if the company is shariaa complance or not.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="qrc-footer">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="legislation.html">Legislation</a>
+                    </li>
+                    <li>
+                        <a href="methodology.html">Methodology</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <p>Copyright © 2018 Maisr For Advanced Systems - Design: MAS</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+    </script>
+</body>
+
+</html>
